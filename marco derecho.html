@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>Bienvenido</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body{
+font-family:Arial, sans-serif;
+background:linear-gradient(135deg,#0d0d0d,#1a1a1a);
+color:white;
+padding:30px;
+}
+.contenedor{
+max-width:1000px;
+margin:auto;
+background:rgba(255,255,255,0.05);
+padding:30px;
+border-radius:20px;
+backdrop-filter:blur(5px);
+box-shadow:0 0 20px rgba(193,18,31,.4);
+}
+h1{
+text-align:center;
+color:#c1121f;
+margin-bottom:20px;
+font-size:40px;
+text-shadow:0 0 15px #c1121f;
+}
+.foto{
+display:flex;
+justify-content:center;
+margin:25px 0;
+}
+.foto img{
+width:300px;
+border-radius:20px;
+box-shadow:0 0 25px #c1121f;
+animation:flotar 3s ease-in-out infinite;
+transition:.5s;
+}
+.foto img:hover{
+transform:scale(1.08);
+box-shadow:0 0 40px red;
+}
+@keyframes flotar{
+0%{
+transform:translateY(0px);
+}
+50%{
+transform:translateY(-15px);
+}
+100%{
+transform:translateY(0px);
+}
+}
+p{
+font-size:18px;
+line-height:1.8;
+text-align:justify;
+margin-top:15px;
+}
+</style>
+</head>
+<body>
+<div class="contenedor">
+<h1>Bienvenido al sitio web de Gera MX</h1>
+<div class="foto">
+<img src="geramx.jpg">
+</div>
+<p>
+Bienvenido a esta página dedicada a Gera MX, uno de los artistas más importantes e influyentes del rap mexicano. A través de este sitio podrás conocer más sobre su vida, sus inicios en la música y el camino que recorrió para convertirse en una figura destacada dentro de la escena urbana de México y Latinoamérica.
+</p>
+<p>
+Aquí encontrarás información sobre su infancia y adolescencia, los primeros pasos que dio dentro del rap, los momentos más importantes de su carrera artística, los álbumes que han marcado su trayectoria, sus principales influencias musicales y algunos de los logros más destacados que ha conseguido a lo largo de los años.
+</p>
+<p>
+Esta página tiene como objetivo mostrar la historia, el esfuerzo y la evolución de un artista que ha logrado inspirar a millones de personas mediante su música y sus letras.
+</p>
+</div>
+</body>
+</html>
